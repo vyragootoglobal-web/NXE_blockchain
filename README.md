@@ -1,16 +1,21 @@
-# Lumi_blockchain
-
-
-Lumi adalah blockchain publik yang dikelola komunitas. Repo ini berisi node scripts v1-v20, utilities, dan dokumentasi.
-
-## Cara Memulai
-1. Install Python 3.8+
-2. Clone repository
-3. Masuk ke folder `nodes/`
-4. Jalankan node:
-   ```bash
-   python node_v1.py
-
 # Lumi Blockchain
 
-Lumi-Blockchain/ │ ├── README.md ├── LICENSE ├── .gitignore ├── nodes/ │   ├── node_v1.py │   ├── node_v2.py │   └── ... (sampai node_v20.py) ├── utils/ │   ├── blockchain.py │   ├── network.py │   └── wallet.py ├── config/ │   └── settings.json └── docs/     └── installation.md
+Lumi Blockchain nodes v1–v20 are fully open-source and community-governed.
+
+## Features
+- Public & decentralized
+- Easy node setup
+- Secure & lightweight
+
+## How to Run Node
+1. Clone the repo: `git clone https://github.com/username/Lumi-Blockchain.git`
+2. Follow setup guide: `docs/setup_node.md`
+3. Start node: `scripts/run_node.py`
+
+## Contribute
+- Report bugs
+- Improve node performance
+- Add new features
+
+## License
+MIT
